@@ -104,16 +104,14 @@ cd e-store
 
 ```bash
 npm install
-# ou
-yarn install
+
 ```
 
 ### 3. Inicie o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# ou
-yarn dev
+
 ```
 
 O projeto estará disponível em: [http://localhost:5173](http://localhost:5173)
