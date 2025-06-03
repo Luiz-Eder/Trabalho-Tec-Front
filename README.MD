@@ -1,29 +1,133 @@
-# E-Commerce
+# 🛍️ **E-Store**  
+### Projeto de E-commerce com Vue.js 3 e Tailwind CSS
 
-This template should help get you started developing with Vue 3 in Vite.
+## 📌 Visão Geral do Projeto
 
-## Recommended IDE Setup
+**E-Store** é um projeto de front-end para e-commerce, desenvolvido com:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Vue.js 3** (usando Composition API e `<script setup>`)
+- **Tailwind CSS** para estilização rápida e responsiva
+- **Vue Router** para navegação
+- **DummyJSON API** como fonte de dados
 
-## Customize configuration
+Ele simula uma loja online, permitindo aos usuários:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+✅ Navegar por produtos  
+🔍 Pesquisar e filtrar por categorias  
+🛒 Adicionar itens ao carrinho  
+✅ Simular a finalização de uma compra  
 
-## Project Setup
+---
 
-```sh
+## ⚙️ Funcionalidades Implementadas
+
+### 🛒 **Catálogo de Produtos**
+- **Listagem de Produtos**: grade de produtos na página inicial.
+- **Busca de Produtos**: campo de busca na Navbar, refletido na URL.
+- **Filtro por Categoria**: clique em uma categoria para filtrar produtos (URL refletida).
+- **Paginação Local**: navegação entre páginas com "Anterior" / "Próxima", refletida na URL.
+- **Ordenação**: por preço (↑↓) ou nome (A-Z / Z-A), com estado na URL.
+
+### 🔍 **Detalhes do Produto**
+- Página dedicada com imagem ampliada e informações detalhadas.
+- Botão de **Voltar** para retornar à listagem, busca ou filtro anteriores.
+
+### 🛍️ **Carrinho de Compras**
+- Adicionar produtos (via ProductCard ou ProductDetail)
+- Visualizar carrinho em `/cart`
+- Ajustar quantidades e remover itens
+- Visualizar total de itens e valor total
+- Persistência no `localStorage`
+- Simulação de **finalização da compra** com mensagem de sucesso
+
+### 📄 **Páginas Informativas**
+- **Sobre Nós**: Missão e informações da loja
+- **Contato**: Informações de contato + formulário simulado
+
+### 📱 **Outros Recursos**
+- **Layout Responsivo** com Tailwind CSS
+- **Navegação Consistente**: Navbar (Home, Carrinho, Busca) + Footer (Sobre, Contato, redes sociais)
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia      | Descrição |
+|-----------------|-----------|
+| **Vue.js 3** | Framework JavaScript progressivo |
+| **Composition API (`<script setup>`)** | Organização e reuso de lógica |
+| `ref`, `computed`, `watch`, `onMounted` | Controle reativo e ciclo de vida |
+| **Vue Router 4** | Navegação entre páginas |
+| **Tailwind CSS** | Estilização utilitária e responsiva |
+| **Axios** | Requisições HTTP à API |
+| **DummyJSON** | API REST fictícia para produtos |
+| **localStorage** | Persistência de dados do carrinho |
+| **Pinia (opcional)** | Store centralizada (o carrinho simula uma store com `ref`/`computed`) |
+
+---
+
+## 🧱 Estrutura do Projeto
+
+```
+src/
+├── assets/
+├── components/
+│   ├── Footer.vue
+│   ├── Navbar.vue
+│   └── ProductCard.vue
+├── router/
+│   └── index.js
+├── stores/
+│   └── cartStore.js
+├── views/
+│   ├── About.vue
+│   ├── Cart.vue
+│   ├── Contact.vue
+│   ├── Home.vue
+│   └── ProductDetail.vue
+├── App.vue
+└── main.js
+```
+
+---
+
+## ▶️ Como Rodar o Projeto Localmente
+
+### 1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/e-store.git
+cd e-store
+```
+
+### 2. Instale as dependências:
+
+```bash
 npm install
+
 ```
 
-### Compile and Hot-Reload for Development
+### 3. Inicie o servidor de desenvolvimento:
 
-```sh
+```bash
 npm run dev
+
 ```
 
-### Compile and Minify for Production
+O projeto estará disponível em: [http://localhost:5173](http://localhost:5173)
 
-```sh
-npm run build
-```
+---
+
+## ✅ Considerações Finais
+
+Este projeto é uma base sólida para e-commerces front-end com:
+
+- **Boas práticas de Vue.js 3**
+- **Gerenciamento de estado**
+- **Navegação estruturada**
+- **Estilização moderna**
+
+🔒 Para uma versão de produção, recomenda-se implementar:
+- Autenticação de usuários
+- Backend real (Node, Laravel, etc.)
+- Integração com gateways de pagamento
