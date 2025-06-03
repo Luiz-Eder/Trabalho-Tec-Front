@@ -9,13 +9,13 @@
 
 <script setup>
 import Navbar from './components/Navbar.vue';
-import Footer from './components/Footer.vue'; // Importa o componente Footer
+import Footer from './components/Footer.vue';
 </script>
 
 <style>
-/* Você pode adicionar estilos globais aqui se precisar */
+
 body {
-  font-family: 'Inter', sans-serif; /* Exemplo de fonte */
-  background-color: #f3f4f6; /* Cor de fundo padrão */
+  font-family: 'Inter', sans-serif; 
+  background-color: #ffeefa; 
 }
 </style>

@@ -38,7 +38,7 @@ const fetchProductsByCategory = async (category) => {
   }
 };
 
-// Observa mudanças no parâmetro da rota (categoria)
+
 watch(() => props.categoryName, (newCategory) => {
   fetchProductsByCategory(newCategory);
 }, { immediate: true });

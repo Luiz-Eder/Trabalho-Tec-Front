@@ -89,7 +89,7 @@ const currentCategory = ref('');
 const searchQuery = ref('');
 const sortCriteria = ref('');
 
-// Paginação
+
 const totalPages = computed(() => {
   if (products.value.length === 0) return 1;
   return Math.ceil(products.value.length / productsPerPage);
@@ -181,7 +181,7 @@ const updateRoute = () => {
   });
 };
 
-// 🔁 Unificado: observa tudo que influencia nos produtos
+
 watch(
   () => [route.params.category, route.query.search, route.query.page, route.query.sort],
   ([cat, search, page, sort]) => {

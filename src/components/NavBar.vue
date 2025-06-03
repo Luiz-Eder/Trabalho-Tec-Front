@@ -2,10 +2,10 @@
   <header class="bg-pink-100 rounded-b-">
     <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
-      <!-- Logo -->
+      
       <router-link to="/" class="text-3xl font-bold text-pink-500 tracking-tight">ECOMMERCE</router-link>
 
-      <!-- Menu central -->
+      
 <nav class="hidden md:flex space-x-8 text-sm font-semibold text-gray-700">
   <router-link to="/" class="hover:text-black transition">ALL</router-link>
   <router-link to="/category/mobile-accessories" class="hover:text-black transition">MOBILE</router-link>
@@ -15,9 +15,9 @@
 </nav>
 
 
-      <!-- Campo de busca + ícones -->
+      
       <div class="flex items-center space-x-4">
-        <!-- Campo de busca -->
+        
         <div v-if="showSearchBar" class="hidden lg:flex items-center bg-gray-100 rounded-full px-3 py-1 w-64">
           <input
             v-model="searchQuery"
@@ -33,7 +33,7 @@
           </button>
         </div>
 
-        <!-- Carrinho -->
+        
         <router-link to="/cart" class="relative text-black hover:text-pink-800 transition">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.3 2.3c-.6.6-.2 1.7.7 1.7H17m0 0a2 2 0 100 4 2 2 0 000-4m-8 2a2 2 0 11-4 0 2 2 0 014 0" />

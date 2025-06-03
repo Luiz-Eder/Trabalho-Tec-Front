@@ -40,12 +40,12 @@
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { useRoute, useRouter } from 'vue-router'; // Importe useRouter
+import { useRoute, useRouter } from 'vue-router'; 
 import axios from 'axios';
 import { useCartStore } from '../stores/cartStore';
 
 const route = useRoute();
-const router = useRouter(); // Inicialize o useRouter
+const router = useRouter(); 
 const product = ref(null);
 const loading = ref(true);
 const error = ref(null);
@@ -68,9 +68,9 @@ const addItemToCart = (productToAdd) => {
   addToCart(productToAdd);
 };
 
-// Nova função para voltar à página anterior
+
 const goBack = () => {
-  router.go(-1); // Isso navega para a entrada anterior no histórico de rotas
+  router.go(-1); 
 };
 
 onMounted(fetchProduct);

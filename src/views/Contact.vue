@@ -67,17 +67,16 @@ const form = ref({
 const successMessage = ref('');
 
 const submitForm = () => {
-  // Aqui você tipicamente enviaria os dados do formulário para um backend.
-  // Por enquanto, vamos simular um envio bem-sucedido.
+
   console.log('Formulário de contato enviado:', form.value);
   successMessage.value = 'Mensagem enviada com sucesso! Em breve entraremos em contato.';
   
-  // Limpar formulário após envio (opcional)
+
   form.value.name = '';
   form.value.email = '';
   form.value.message = '';
 
-  // Limpa a mensagem de sucesso após alguns segundos
+
   setTimeout(() => {
     successMessage.value = '';
   }, 5000);

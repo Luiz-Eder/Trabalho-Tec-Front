@@ -1,10 +1,10 @@
-// src/router/index.js
+
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import ProductDetail from '../views/ProductDetail.vue';
 import Cart from '../views/Cart.vue';
-import About from '../views/About.vue'; // Importa o novo componente About
-import Contact from '../views/Contact.vue'; // Importa o novo componente Contact
+import About from '../views/About.vue'; 
+import Contact from '../views/Contact.vue'; 
 
 const routes = [
   {
@@ -30,12 +30,12 @@ const routes = [
     component: Cart
   },
   {
-    path: '/about', // Nova rota para a página Sobre
+    path: '/about', 
     name: 'About',
     component: About
   },
   {
-    path: '/contact', // Nova rota para a página Contato
+    path: '/contact', 
     name: 'Contact',
     component: Contact
   }
