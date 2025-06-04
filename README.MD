@@ -54,8 +54,10 @@ youtube - https://youtu.be/KkCmMFb-rJc
 
 ### **PRINTS:**
 ---
-
+- Main.js
 ![image alt](https://github.com/Luiz-Eder/Trabalho-Tec-Front/blob/main/Screenshot%202025-06-03%20215053.png?raw=true)
+
+![image alt]
 
 
 ---
