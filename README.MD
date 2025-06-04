@@ -48,17 +48,24 @@ Ele simula uma loja online, permitindo aos usuários:
 - **Layout Responsivo** com Tailwind CSS
 - **Navegação Consistente**: Navbar (Home, Carrinho, Busca) + Footer (Sobre, Contato, redes sociais)
 
-### **VIDEO:**
+### 🔉**VIDEO:**
 
 youtube - https://youtu.be/KkCmMFb-rJc
 
-### **PRINTS:**
+### 💌 **PRINTS:**
 ---
-- Main.js
+
 ![image alt](https://github.com/Luiz-Eder/Trabalho-Tec-Front/blob/main/Screenshot%202025-06-03%20215053.png?raw=true)
 
-![image alt]
+![image alt](https://github.com/Luiz-Eder/Trabalho-Tec-Front/blob/main/Screenshot%202025-06-03%20215323.png?raw=true)
 
+![image alt](https://github.com/Luiz-Eder/Trabalho-Tec-Front/blob/main/Screenshot%202025-06-03%20215434.png?raw=true)
+
+![image alt](https://github.com/Luiz-Eder/Trabalho-Tec-Front/blob/main/Screenshot%202025-06-03%20215813.png?raw=true)
+
+![image alt](https://github.com/Luiz-Eder/Trabalho-Tec-Front/blob/main/Screenshot%202025-06-03%20215732.png?raw=true)
+
+![image alt](https://github.com/Luiz-Eder/Trabalho-Tec-Front/blob/main/Screenshot%202025-06-03%20215524.png?raw=true)
 
 ---
 
