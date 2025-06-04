@@ -48,7 +48,12 @@ Ele simula uma loja online, permitindo aos usuários:
 - **Layout Responsivo** com Tailwind CSS
 - **Navegação Consistente**: Navbar (Home, Carrinho, Busca) + Footer (Sobre, Contato, redes sociais)
 
+### **video**
+
+youtube - https://youtu.be/KkCmMFb-rJc
+
 ---
+
 
 ## 🛠️ Tecnologias Utilizadas
 
